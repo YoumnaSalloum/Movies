@@ -1,0 +1,27 @@
+.h{
+color:#FFEFD5;
+}
+.content{
+	text-align: center
+}
+body{
+ background-image: url("Image from iOS (6).jpg")
+ 
+
+}
+input-task{
+	height:200px;
+    
+}
+
+button.btn{
+	color: white;
+	background-color:red;
+	border: none;
+  padding: 15px 32px;
+  text-align: center;
+ font-size: 18px;
+  
+ 
+
+}
