@@ -1,25 +1,15 @@
-var movies=[{name:'Ready or Not',type:'comedy horror film ',stars:['Samara Weaving','Adam Brody','Mark OBrien'],dateOfpublish:2019},
-{name:'Me Before You',type:'romantic drama film',stars:['Emilia Clarke','Sam Claflin','Janet McTeer' ],dateOfpublish:2016},
-{name:'Divergent ',type:'science fiction action film',stars:['Shailene Woodley','Theo James'],dateOfpublish:2014},
+var movies=[{name:'Ready or not',type:'comedy horror film ',stars:['Samara Weaving','Adam Brody','Mark OBrien'],dateOfpublish:2019},
+{name:'Me before you',type:'romantic drama film',stars:['Emilia Clarke','Sam Claflin','Janet McTeer' ],dateOfpublish:2016},
+{name:'Divergent',type:'science fiction action film',stars:['Shailene Woodley','Theo James'],dateOfpublish:2014},
 {name:'Maleficent',type:' fantasy film ',stars:["Angelina Jolie","Sharlto Copley","Elle Fanning","Sam Riley"],dateOfpublish:2014}]
 
-function each(coll, f) {
-  if (Array.isArray(coll)) { 
-    for (var i = 0; i < coll.length; i++) { 
-      f(coll[i], i); 
-    } 
-  } else { 
-     for (var key in coll) { 
-       f(coll[key], key); 
-     } 
-   } 
- } 
+ 
 
 // var ides=["readyornot","mebeforeyou","divergent","Maleficent"]
 
-function display(element){
-	return "name: "+ element.name+"<br>" + "type: " + element.type + "<br>"+ "stars: " + element.stars +"<br>"+ "dateOfpublish: " + element.dateOfpublish
-}
+// function display(element){
+// 	return "name: "+ element.name+"<br>" + "type: " + element.type + "<br>"+ "stars: " + element.stars +"<br>"+ "dateOfpublish: " + element.dateOfpublish
+// }
 
 
 

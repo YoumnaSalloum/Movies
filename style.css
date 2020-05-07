@@ -5,7 +5,7 @@ color:#FFEFD5;
 	text-align: center
 }
 body{
- background-image: url("Image from iOS (6).jpg")
+ background-image: url("Image from iOS (4).jpg")
  
 
 }
@@ -24,4 +24,33 @@ button.btn{
   
  
 
+}
+a {font-size: 30px}
+a:hover {
+  color: red;
+}
+h3{
+	 color:#FFEBCD;
+	 
+
+}
+
+
+.animation{  position: relative;
+  animation: mymove 5s infinite;
+}
+  @keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+.column {
+  float: left;
+  padding: 5px;
+}
+.inpbtn{
+ float: center;	
+  margin-bottom: 60px;
+}
+.readyornot{
+	text-align: center;
 }
